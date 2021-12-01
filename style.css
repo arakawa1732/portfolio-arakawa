@@ -4,13 +4,32 @@
 
 body {
     font-family:  "Noto sans JP" ,"sans-serif";
-    margin: 0;
-    min-width: 1076px;
+  
 }
 
 /*
 *headerのスタイルシート
 */
-.box-header{
-    background: linear-gradient( #00ff99 #00ffcc );
+  .box-header{
+    bbackground-color : linear-gradient(rgb(4, 220, 248) rgb(90, 236, 229)) ;
+    background-color: aquamarine;
 }
+
+li{
+    font-size: 15px;
+    display: inline;
+    list-style: none;
+    padding: auto;
+    margin: 0 10px 0 0 ;
+    float: left;
+    color: azure;
+}
+
+.line-green{
+    border-bottom: solid 5px aliceblue;
+}
+.my-profile{
+    height: 90px;
+    width: 90px;
+}
+
