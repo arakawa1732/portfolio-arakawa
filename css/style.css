@@ -280,7 +280,9 @@ ul.tech > li {
 ul.tech li img {
     height:60px;
     width: 60px;
-    
+	transition: .5s ;
+	transform: rotateY( 0deg ) ;
+    transform: rotateY( 360deg ) ;
 }
 
 ul.social {
@@ -341,4 +343,3 @@ ul.products > li > a{
 .product-info > li .description {
     width:80%;
 }
-
